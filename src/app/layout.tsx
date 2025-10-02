@@ -15,6 +15,7 @@ export default function RootLayout({
 }: {
     children: React.ReactNode;
 }) {
+    const isClerkConfigured = !!process.env.NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY;
     return (
         <html lang="en" suppressHydrationWarning>
             <body
@@ -23,9 +24,13 @@ export default function RootLayout({
                     font.className
                 )}
             >
-                <ClerkProvider appearance={{ baseTheme: dark }}>
-                    {children}
-                </ClerkProvider>
+                {isClerkConfigured ? (
+                    <ClerkProvider appearance={{ baseTheme: dark }}>
+                        {children}
+                    </ClerkProvider>
+                ) : (
+                    <>{children}</>
+                )}
             </body>
         </html>
     );
