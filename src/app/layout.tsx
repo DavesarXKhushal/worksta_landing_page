@@ -29,7 +29,7 @@ export default function RootLayout({
                         {children}
                     </ClerkProvider>
                 ) : (
-                    <>{children}</>
+                    children
                 )}
             </body>
         </html>
