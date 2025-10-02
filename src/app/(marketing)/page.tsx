@@ -64,7 +64,8 @@ const HomePage = () => {
             </Wrapper>
 
             {/* how it works */}
-            <Wrapper id="process" className="flex flex-col items-center justify-center py-12 relative">
+            <Wrapper className="flex flex-col items-center justify-center py-12 relative">
+                <div id="process" className="w-full">
                 <Container>
                     <header className="max-w-md mx-auto text-start md:text-center">
                         <SectionBadge title="The Process" />
@@ -95,10 +96,12 @@ const HomePage = () => {
                         </ul>
                     </section>
                 </Container>
+                </div>
             </Wrapper>
 
             {/* features */}
-            <Wrapper id="features" className="flex flex-col items-center justify-center py-12 relative">
+            <Wrapper className="flex flex-col items-center justify-center py-12 relative">
+                <div id="features" className="w-full">
                 <span className="hidden md:block absolute top-0 -right-1/3 w-72 h-72 bg-primary rounded-full blur-[10rem] -z-10"></span>
                 <span className="hidden md:block absolute bottom-0 -left-1/3 w-72 h-72 bg-indigo-600 rounded-full blur-[10rem] -z-10"></span>
                 <Container>
@@ -136,10 +139,12 @@ const HomePage = () => {
                         </ul>
                     </section>
                 </Container>
+                </div>
             </Wrapper>
 
             {/* remove pricing; replace with About section */}
-            <Wrapper id="about" className="flex flex-col items-center justify-center py-12 relative">
+            <Wrapper className="flex flex-col items-center justify-center py-12 relative">
+                <div id="about" className="w-full">
                 <Container>
                     <header className="max-w-2xl mx-auto text-center">
                         <SectionBadge title="About" />
@@ -147,10 +152,12 @@ const HomePage = () => {
                         <p className="text-muted-foreground mt-6">We connect gig workers and F&B businesses to fill shifts fast, handle scheduling, and streamline weekly payments—all in one place.</p>
                     </header>
                 </Container>
+                </div>
             </Wrapper>
 
             {/* testimonials */}
-            <Wrapper id="testimonials" className="flex flex-col items-center justify-center py-12 relative">
+            <Wrapper className="flex flex-col items-center justify-center py-12 relative">
+                <div id="testimonials" className="w-full">
                 <span className="hidden md:block absolute -top-1/4 -left-1/3 w-72 h-72 bg-indigo-500 rounded-full blur-[10rem] -z-10"></span>
                 <Container>
                     <header className="max-w-md mx-auto text-start md:text-center">
@@ -215,10 +222,12 @@ const HomePage = () => {
                         </article>
                     </section>
                 </Container>
+                </div>
             </Wrapper>
 
             {/* newsletter */}
-            <Wrapper id="waitlist" className="flex flex-col items-center justify-center py-12 relative">
+            <Wrapper className="flex flex-col items-center justify-center py-12 relative">
+                <div id="waitlist" className="w-full">
                 <Container>
                     <LampContainer>
                         <section className="flex flex-col items-center justify-center relative w-full text-center">
@@ -226,7 +235,7 @@ const HomePage = () => {
                                 From Idea to Launch <br /> Faster Than Ever
                             </h2>
                             <p className="text-muted-foreground mt-6 max-w-md mx-auto">
-                                Build stunning websites with Worksta&apos;s intuitive drag-and-drop builder and powerful AI assistant
+                                Connect gig workers with F&B businesses to fill shifts fast, manage schedules, and get paid weekly.
                             </p>
                             <Button variant="white" className="mt-6" asChild>
                                 <Link href="/sign-in">
@@ -270,6 +279,7 @@ const HomePage = () => {
                         </article>
                     </section>
                 </Container>
+                </div>
             </Wrapper>
 
         </section>
