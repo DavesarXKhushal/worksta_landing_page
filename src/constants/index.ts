@@ -4,85 +4,55 @@ export const perks = [
     {
         icon: Icons.auth,
         title: "Create your profile",
-        info: "Create your free account to get started with Astra.",
+        info: "Pros sign up to find shifts. Venues create a page to hire.",
     },
     {
         icon: Icons.customize,
         title: "Book or post shifts",
-        info: "Pros browse nearby gigs. Businesses post open shifts instantly.",
+        info: "Browse nearby gigs or post open roles for the week.",
     },
     {
         icon: Icons.launch,
         title: "Show up & get paid",
-        info: "Clock in, do great work, and receive weekly payouts on time.",
+        info: "Track hours and get weekly payouts—on time, every time.",
     },
 ];
 
 export const features = [
     {
         icon: Icons.bolt,
-        title: "Instant shift booking",
-        info: "Fill roles fast or grab last‑minute shifts with real‑time availability.",
+        title: "Instant staffing",
+        info: "Match with vetted Pros and fill shifts in minutes.",
     },
     {
         icon: Icons.palette,
-        title: "Verified venues & pros",
-        info: "Work only with vetted restaurants and rated professionals.",
+        title: "Smart scheduling",
+        info: "Plan weekly rosters and handle last‑minute changes with ease.",
     },
     {
         icon: Icons.seo,
-        title: "On‑time weekly payouts",
-        info: "Transparent earnings and automated weekly payments for pros.",
+        title: "Reliable payouts",
+        info: "Weekly payments with clear rates and transparent fees.",
     },
     {
         icon: Icons.monitor,
-        title: "Flexible schedules",
-        info: "Pick the days and hours that fit your life. No long‑term contracts.",
+        title: "Mobile first",
+        info: "Everything works beautifully on the go for Pros and venues.",
     },
     {
         icon: Icons.shop,
-        title: "Roles that fit your skills",
-        info: "Front‑of‑house, back‑of‑house, bar — match with what you do best.",
+        title: "Quality control",
+        info: "Ratings, reviews, and profiles help you hire with confidence.",
     },
     {
         icon: Icons.server,
-        title: "Ratings & reviews",
-        info: "Build your reputation over time and get invited back by top venues.",
+        title: "Compliance",
+        info: "Built with Southeast Asia in mind: formats, currencies, and workflows.",
     },
 ];
 
-export const pricingCards = [
-    {
-        title: "Pros",
-        description: "Find shifts and get paid weekly",
-        price: "Free",
-        duration: "",
-        highlight: "Includes",
-        buttonText: "Sign up as Pro",
-        features: ["Unlimited shift browsing", "In‑app messaging", "Weekly payouts"],
-        priceId: "",
-    },
-    {
-        title: "Business",
-        description: "Post shifts and manage staffing",
-        price: "$199",
-        duration: "month",
-        highlight: "Includes",
-        buttonText: "Start hiring",
-        features: ["Unlimited job posts", "Team scheduling", "Verified pros", "Auto‑invitations"],
-        priceId: "price_1OYxkqFj9oKEERu1KfJGWxgN",
-    },
-    {
-        title: "Enterprise",
-        description: "Multi‑location staffing & support",
-        price: "$399",
-        duration: "month",
-        highlight: "Includes",
-        buttonText: "Contact sales",
-        features: ["Custom approvals", "Dedicated success", "Priority support (24/7)", "Integrations"],
-        priceId: "price_1OYxkqFj9oKEERu1NbKUxXxN",
-    },
-];
+// Pricing removed for now; keep an empty export for compatibility if imported elsewhere
+export const pricingCards: Array<any> = [];
 
 export const bentoCards = [
     {
@@ -113,33 +83,33 @@ export const bentoCards = [
 
 export const reviews = [
     {
-        name: "Aiden",
-        username: "@aiden",
-        body: "Picked up weekend shifts at my favorite restaurants. Got paid Monday, every time.",
+        name: "Amira",
+        username: "@amira",
+        body: "Booked three shifts this week near Orchard. Payments were smooth.",
+    },
+    {
+        name: "Ken",
+        username: "@ken",
+        body: "We filled weekend FOH roles in under an hour. Great Pros.",
     },
     {
         name: "Mei",
         username: "@mei",
-        body: "We filled last‑minute gaps across two outlets in under an hour.",
+        body: "Set my available hours, picked shifts I like, got paid Monday.",
     },
     {
-        name: "Carlos",
-        username: "@carlos",
-        body: "Flexible gigs that fit my school schedule — and the venues are legit.",
+        name: "Ravi",
+        username: "@ravi",
+        body: "Perfect for last‑minute coverage. The roster tool is solid.",
     },
     {
-        name: "Priya",
-        username: "@priya",
-        body: "Onboarding was quick, and we now have a reliable pool of rated pros.",
+        name: "Ira",
+        username: "@ira",
+        body: "Worked at two cafes, learned a lot and met great teams.",
     },
     {
-        name: "Jen",
-        username: "@jen",
-        body: "Transparent pay and no back‑and‑forth — bookings are smooth.",
-    },
-    {
-        name: "James",
-        username: "@james",
-        body: "We finally stopped scrambling for staff on busy nights.",
+        name: "Bao",
+        username: "@bao",
+        body: "Posting shifts is easy and transparent. Recommended.",
     },
 ];
