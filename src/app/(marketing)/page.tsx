@@ -68,12 +68,12 @@ const HomePage = () => {
                 <div id="process" className="w-full">
                 <Container>
                     <header className="max-w-md mx-auto text-start md:text-center">
-                        <SectionBadge title="The Process" />
+                        <SectionBadge title="How It Works" />
                         <h2 className="text-3xl lg:text-4xl font-semibold mt-6">
-                            Three steps to build your dream website
+                            Three steps to staff your next F&B shift
                         </h2>
                         <p className="text-muted-foreground mt-6">
-                            Turn your vision into reality in just 3 simple steps
+                            Post roles, match with vetted Pros, and confirm in minutes.
                         </p>
                     </header>
                 </Container>
@@ -111,7 +111,7 @@ const HomePage = () => {
                             Discover our powerful features
                         </h2>
                         <p className="text-muted-foreground mt-6">
-                            Worksta offers a range of features to help you build a stunning website in no time
+                            Worksta helps F&B venues staff shifts fast with vetted gig Pros, smart scheduling, and weekly payouts.
                         </p>
                     </header>
                 </Container>
