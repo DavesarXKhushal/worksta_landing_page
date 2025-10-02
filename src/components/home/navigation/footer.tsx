@@ -16,7 +16,7 @@ const Footer = () => {
                         <Icons.logo className="w-7 h-7" />
                     </div>
                     <p className="text-muted-foreground mt-4 text-sm text-start">
-                        Build beautiful, functional websites, without writing code
+                        The F&B gig platform that connects reliable Pros with great venues.
                     </p>
                     <span className="mt-4 text-neutral-200 text-sm flex items-center">
                         Made in India with
@@ -33,7 +33,7 @@ const Footer = () => {
                             <ul className="mt-4 text-sm text-muted-foreground">
                                 <li className="mt-2">
                                     <Link href="" className="hover:text-foreground transition-all duration-300">
-                                        Features
+                                        How it works
                                     </Link>
                                 </li>
                                 <li className="mt-2">
@@ -43,12 +43,12 @@ const Footer = () => {
                                 </li>
                                 <li className="mt-2">
                                     <Link href="" className="hover:text-foreground transition-all duration-300">
-                                        Testimonials
+                                        For Pros
                                     </Link>
                                 </li>
                                 <li className="mt-2">
                                     <Link href="" className="hover:text-foreground transition-all duration-300">
-                                        Integration
+                                        For Businesses
                                     </Link>
                                 </li>
                             </ul>
@@ -94,7 +94,7 @@ const Footer = () => {
                                 </li>
                                 <li className="mt-2">
                                     <Link href="" className="hover:text-foreground transition-all duration-300">
-                                        Case Studies
+                                        Success stories
                                     </Link>
                                 </li>
                                 <li className="mt-2">
