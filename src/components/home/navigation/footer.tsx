@@ -16,7 +16,7 @@ const Footer = () => {
                         <Icons.logo className="w-7 h-7" />
                     </div>
                     <p className="text-muted-foreground mt-4 text-sm text-start">
-                        The F&B gig platform that connects reliable Pros with great venues.
+                        Connecting F&B venues with reliable gig workers across Southeast Asia.
                     </p>
                     <span className="mt-4 text-neutral-200 text-sm flex items-center">
                         Made in India with
@@ -27,103 +27,12 @@ const Footer = () => {
                 <div className="grid-cols-2 gap-8 grid mt-16 xl:col-span-2 xl:mt-0">
                     <div className="md:grid md:grid-cols-2 md:gap-8">
                         <div className="">
-                            <h3 className="text-base font-medium text-white">
-                                Product
-                            </h3>
+                            <h3 className="text-base font-medium text-white">Explore</h3>
                             <ul className="mt-4 text-sm text-muted-foreground">
-                                <li className="mt-2">
-                                    <Link href="" className="hover:text-foreground transition-all duration-300">
-                                        How it works
-                                    </Link>
-                                </li>
-                                <li className="mt-2">
-                                    <Link href="" className="hover:text-foreground transition-all duration-300">
-                                        Pricing
-                                    </Link>
-                                </li>
-                                <li className="mt-2">
-                                    <Link href="" className="hover:text-foreground transition-all duration-300">
-                                        For Pros
-                                    </Link>
-                                </li>
-                                <li className="mt-2">
-                                    <Link href="" className="hover:text-foreground transition-all duration-300">
-                                        For Businesses
-                                    </Link>
-                                </li>
-                            </ul>
-                        </div>
-                        <div className="mt-10 md:mt-0 flex flex-col">
-                            <h3 className="text-base font-medium text-white">
-                                Integrations
-                            </h3>
-                            <ul className="mt-4 text-sm text-muted-foreground">
-                                <li className="">
-                                    <Link href="" className="hover:text-foreground transition-all duration-300">
-                                        Facebook
-                                    </Link>
-                                </li>
-                                <li className="mt-2">
-                                    <Link href="" className="hover:text-foreground transition-all duration-300">
-                                        Instagram
-                                    </Link>
-                                </li>
-                                <li className="mt-2">
-                                    <Link href="" className="hover:text-foreground transition-all duration-300">
-                                        Twitter
-                                    </Link>
-                                </li>
-                                <li className="mt-2">
-                                    <Link href="" className="hover:text-foreground transition-all duration-300">
-                                        LinkedIn
-                                    </Link>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div className="md:grid md:grid-cols-2 md:gap-8">
-                        <div className="">
-                            <h3 className="text-base font-medium text-white">
-                                Resources
-                            </h3>
-                            <ul className="mt-4 text-sm text-muted-foreground">
-                                <li className="mt-2">
-                                    <Link href="" className="hover:text-foreground transition-all duration-300">
-                                        Blog
-                                    </Link>
-                                </li>
-                                <li className="mt-2">
-                                    <Link href="" className="hover:text-foreground transition-all duration-300">
-                                        Success stories
-                                    </Link>
-                                </li>
-                                <li className="mt-2">
-                                    <Link href="" className="hover:text-foreground transition-all duration-300">
-                                        Support
-                                    </Link>
-                                </li>
-                            </ul>
-                        </div>
-                        <div className="mt-10 md:mt-0 flex flex-col">
-                            <h3 className="text-base font-medium text-white">
-                                Company
-                            </h3>
-                            <ul className="mt-4 text-sm text-muted-foreground">
-                                <li className="">
-                                    <Link href="" className="hover:text-foreground transition-all duration-300">
-                                        About Us
-                                    </Link>
-                                </li>
-                                <li className="mt-2">
-                                    <Link href="" className="hover:text-foreground transition-all duration-300">
-                                        Privacy Policy
-                                    </Link>
-                                </li>
-                                <li className="mt-2">
-                                    <Link href="" className="hover:text-foreground transition-all duration-300">
-                                        Terms & Conditions
-                                    </Link>
-                                </li>
+                                <li className="mt-2"><Link href="#features" className="hover:text-foreground transition-all duration-300">Features</Link></li>
+                                <li className="mt-2"><Link href="#process" className="hover:text-foreground transition-all duration-300">How it works</Link></li>
+                                <li className="mt-2"><Link href="#about" className="hover:text-foreground transition-all duration-300">About</Link></li>
+                                <li className="mt-2"><Link href="#waitlist" className="hover:text-foreground transition-all duration-300">Join waitlist</Link></li>
                             </ul>
                         </div>
                     </div>
@@ -133,7 +42,7 @@ const Footer = () => {
 
             <div className="mt-8 border-t border-border/40 pt-4 md:pt-8 md:flex md:items-center md:justify-between w-full">
                 <p className="text-sm text-muted-foreground mt-8 md:mt-0">
-                    &copy; {new Date().getFullYear()} Astra AI INC. All rights reserved.
+                    &copy; {new Date().getFullYear()} Worksta. Made by Khushal.
                 </p>
             </div>
 
