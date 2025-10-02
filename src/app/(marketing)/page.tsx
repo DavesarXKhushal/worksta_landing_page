@@ -35,7 +35,7 @@ const HomePage = () => {
                             <span className="h-full w-full blur-md absolute bottom-0 inset-x-0 bg-gradient-to-tr from-primary/40"></span>
                             <span className="z-10 py-0.5 text-sm text-neutral-100 flex items-center justify-center gap-1.5">
                                 <Image src="/icons/sparkles-dark.svg" alt="✨" width={24} height={24} className="w-4 h-4" />
-                                Introducing Worksta AI
+                                Introducing Worksta
                                 <ChevronRight className="w-4 h-4" />
                             </span>
                         </button>
