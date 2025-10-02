@@ -16,16 +16,16 @@ const Navbar = async () => {
                         <Link href="/" className="flex items-center gap-2">
                             <Icons.logo className="w-8 h-8" />
                             <span className="text-lg font-medium">
-                                Astra
+                                Worksta
                             </span>
                         </Link>
                     </div>
                     <nav className="hidden md:block absolute left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2">
                         <ul className="flex items-center justify-center gap-8">
-                            <Link href="#" className="hover:text-foreground/80 text-sm">Find work</Link>
-                            <Link href="#" className="hover:text-foreground/80 text-sm">Hire staff</Link>
-                            <Link href="#" className="hover:text-foreground/80 text-sm">How it works</Link>
-                            <Link href="#" className="hover:text-foreground/80 text-sm">Pricing</Link>
+                            <Link href="#process" className="hover:text-foreground/80 text-sm">How it works</Link>
+                            <Link href="#features" className="hover:text-foreground/80 text-sm">Features</Link>
+                            <Link href="#about" className="hover:text-foreground/80 text-sm">About</Link>
+                            <Link href="#testimonials" className="hover:text-foreground/80 text-sm">Stories</Link>
                         </ul>
                     </nav>
                     <div className="flex items-center gap-4">
@@ -33,11 +33,11 @@ const Navbar = async () => {
                             <UserButton />
                         ) : (
                             <>
-                                <Link href="/sign-in" className={buttonVariants({ size: "sm", variant: "ghost" })}>
-                                    Login
+                                <Link href="#waitlist" className={buttonVariants({ size: "sm", variant: "ghost" })}>
+                                    Coming soon
                                 </Link>
-                                <Link href="/sign-up" className={buttonVariants({ size: "sm", className: "hidden md:flex" })}>
-                                    Get started
+                                <Link href="#waitlist" className={buttonVariants({ size: "sm", className: "hidden md:flex" })}>
+                                    Join waitlist
                                 </Link>
                             </>
                         )}
