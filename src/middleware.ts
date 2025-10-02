@@ -1,21 +1,11 @@
 import { NextResponse } from "next/server";
-import { clerkMiddleware, createRouteMatcher } from "@clerk/nextjs/server";
+import type { NextRequest } from "next/server";
 
-const isHomeRoute = createRouteMatcher(["/"]);
-const isClerkConfigured = !!process.env.NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY;
-
-const middleware = isClerkConfigured
-    ? clerkMiddleware((auth, req) => {
-        const { userId } = auth();
-
-        // if there is user and home route is accessed, redirect to dashboard or any other protected route
-        if (userId && isHomeRoute(req)) {
-            return NextResponse.rewrite(new URL("/", req.url));
-        }
-    })
-    : (_req: Request) => NextResponse.next();
-
-export default middleware;
+// Clerk middleware disabled for local development to avoid missing publishableKey errors.
+// If you want to enable Clerk, restore the original middleware and set env vars.
+export default function middleware(_req: NextRequest) {
+    return NextResponse.next();
+}
 
 export const config = {
     matcher: ["/((?!.*\\..*|_next).*)", "/", "/(api|trpc)(.*)"],
