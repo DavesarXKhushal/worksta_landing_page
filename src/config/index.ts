@@ -3,10 +3,10 @@ import { Metadata } from "next";
 export const SITE_CONFIG: Metadata = {
     title: {
         // write a default title for worksta a ai powered website builder suggest something unique and catchy don't use the same words of ai powered website builder give a unique name
-        default: "Worksta - AI Powered Website Builder",
+        default: "Worksta — F&B Shift Staffing & Gig Marketplace",
         template: `%s | Worksta`
     },
-    description: "Worksta is an AI powered website builder that helps you create a website in minutes. No coding skills required. Get started for free!",
+    description: "Connect gig workers with F&B venues to fill shifts fast. Smart scheduling, vetted Pros, and weekly payouts.",
     icons: {
         icon: [
             {
@@ -16,8 +16,8 @@ export const SITE_CONFIG: Metadata = {
         ]
     },
     openGraph: {
-        title: "Worksta - AI Powered Website Builder",
-        description: "Worksta is an AI powered website builder that helps you create a website in minutes. No coding skills required. Get started for free!",
+        title: "Worksta — F&B Shift Staffing & Gig Marketplace",
+        description: "Connect gig workers with F&B venues to fill shifts fast. Smart scheduling, vetted Pros, and weekly payouts.",
         images: [
             {
                 url: "/assets/og-image.png",
@@ -27,8 +27,8 @@ export const SITE_CONFIG: Metadata = {
     twitter: {
         card: "summary_large_image",
         creator: "@shreyassihasane",
-        title: "Worksta - AI Powered Website Builder",
-        description: "Worksta is an AI powered website builder that helps you create a website in minutes. No coding skills required. Get started for free!",
+        title: "Worksta — F&B Shift Staffing & Gig Marketplace",
+        description: "Connect gig workers with F&B venues to fill shifts fast. Smart scheduling, vetted Pros, and weekly payouts.",
         images: [
             {
                 url: "/assets/og-image.png",
