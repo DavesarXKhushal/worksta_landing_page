@@ -62,10 +62,10 @@ export const bentoCards = [
         alt: 'Inspiration for website creation'
     },
     {
-        title: 'AI Assists Your Vision',
+        title: 'F&B Shift Staffing & Gig Marketplace',
         info: 'Our intelligent AI tailors suggestions and functionalities based on your goals.',
         imgSrc: '/assets/bento1.svg', // AI Assistant icon
-        alt: 'AI website building assistant'
+        alt: 'F&B Shift Staffing & Gig Marketplace'
     },
     {
         title: 'Drag & Drop Customization',
