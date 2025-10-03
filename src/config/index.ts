@@ -7,6 +7,16 @@ export const SITE_CONFIG: Metadata = {
         template: `%s | Worksta`
     },
     description: "Connect gig workers with F&B venues to fill shifts fast. Smart scheduling, vetted Pros, and weekly payouts.",
+    applicationName: "Worksta",
+    keywords: [
+        "F&B staffing",
+        "gig workers",
+        "shift marketplace",
+        "restaurant jobs",
+        "weekly payouts",
+        "smart scheduling",
+        "Southeast Asia"
+    ],
     icons: {
         icon: [
             {
@@ -18,6 +28,7 @@ export const SITE_CONFIG: Metadata = {
     openGraph: {
         title: "Worksta — F&B Shift Staffing & Gig Marketplace",
         description: "Connect gig workers with F&B venues to fill shifts fast. Smart scheduling, vetted Pros, and weekly payouts.",
+        url: "https://worksta.vercel.app",
         images: [
             {
                 url: "/assets/og-image.png",
@@ -35,5 +46,5 @@ export const SITE_CONFIG: Metadata = {
             }
         ]
     },
-    metadataBase: new URL("https://worksta-app.vercel.app"),
+    metadataBase: new URL("https://worksta.vercel.app"),
 };
